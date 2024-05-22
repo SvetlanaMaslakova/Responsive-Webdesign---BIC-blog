@@ -1,11 +1,8 @@
-/* Base styles (these apply to all screen sizes) */
 .example {
    background-color: blue;
 }
 
-/* Media query for screens larger than 768px */
 @media (min-width: 768px) {
-   /* Style for the .main-menu class */
    .main-menu {
       width: 20%;       /* Make it narrow */
       height: 100vh;    /* Full height of the viewport */
@@ -14,13 +11,11 @@
       margin: 0;        /* No margin */
    }
 
-   /* Style for the .primary-content class */
    .primary-content {
       width: 70%;       /* Allow space for the .main-menu */
       float: right;     /* Float it to the right */
    }
 
-   /* Style for images */
    img {
       width: 60%;       /* Make images smaller */
    }
